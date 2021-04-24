@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
     s.license           = { :type => 'MIT', :file => 'LICENSE.md' }
 
     s.platform          = :ios
-#    s.source            = { :git => 'https://github.com/payfort/fort-ios-sdk',:tag => s.version}
-    s.source            = { :git => 'https://github.com/payfort/fort-ios-sdk', :branch => 'dev'}
+#    s.source            = { :git => 'https://github.com/Alkalouti/fort-ios-sdk',:tag => s.version}
+    s.source            = { :git => 'https://github.com/Alkalouti/fort-ios-sdk', :branch => 'dev'}
 
     s.ios.deployment_target = '11.0'
     s.ios.vendored_frameworks = 'PayFortSDK.xcframework'
