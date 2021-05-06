@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name              = 'PayFortSDK'
-    s.version           = '1.0.0'
+    s.version           = '1.0.1'
     s.summary           = 'The FORT Mobile SDK allows Merchants to securely integrate the payment functions. It also allows Merchants to easily accept In-App payments. Instead of the traditional, time-consuming, and complex way of being redirected to the mobile browser to complete the payment, In-App payments can be completed through our FORT Mobile SDK. In turn, this gives the Merchant’s consumers a smooth, pleasing user-experience by using In-App payment functions through the native applications.'
     s.homepage          = 'https://paymentservices.amazon.com/'
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 #    s.source            = { :git => 'https://github.com/Alkalouti/fort-ios-sdk',:tag => s.version}
     s.source            = { :git => 'https://github.com/Alkalouti/fort-ios-sdk', :branch => 'dev'}
 
-    s.ios.deployment_target = '11.0'
+    s.ios.deployment_target = '11.2'
     s.ios.vendored_frameworks = 'PayFortSDK.xcframework'
     s.requires_arc = true
     s.swift_version = '5.0'
