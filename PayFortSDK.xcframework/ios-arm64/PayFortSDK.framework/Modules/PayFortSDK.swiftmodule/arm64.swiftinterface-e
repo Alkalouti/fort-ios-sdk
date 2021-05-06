@@ -118,7 +118,7 @@ extension CardContainer : UIKit.UITextFieldDelegate {
   @objc dynamic public func textFieldDidEndEditing(_ textField: UIKit.UITextField, reason: UIKit.UITextField.DidEndEditingReason)
 }
 @objc public class PayComponents : ObjectiveC.NSObject {
-  public init(cardNumberView: PayFortSDK.CardNumberView, expiryDateView: PayFortSDK.ExpiryDateView, cvcNumberView: PayFortSDK.CVCNumberView, holderNameView: PayFortSDK.HolderNameView, rememberMe: Swift.Bool, language: Swift.String = "en")
+  public init(cardNumberView: PayFortSDK.CardNumberView, expiryDateView: PayFortSDK.ExpiryDateView, cvcNumberView: PayFortSDK.CVCNumberView, holderNameView: PayFortSDK.HolderNameView, rememberMe: Swift.Bool, language: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
